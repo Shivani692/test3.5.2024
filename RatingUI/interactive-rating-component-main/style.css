@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background-color: hsl(216, 12%, 8%);;
+
+}
+.black{
+  background-color: hsl(213, 19%, 18%);
+  height: 300px;
+  width: 350px;  
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+  h3{font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  p{font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 300px;
+    color:hsl(217, 12%, 63%);
+    font-size: 13px;
+  }
+}
+.star{
+    background-color: hsl(217, 10%, 26%);
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    transform: translateY(30px);
+    svg{
+        margin-left: 6.5px;
+        margin-top: 5px;
+        
+    }
+}
+.lis{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   gap: 20px;
+   margin-left: 20px;
+    li{
+    background-color: hsl(217, 10%, 26%);
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;}
+    p{
+margin-top: 12px;
+margin-right: 7px;
+    }
+}
+.o{
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 42px;
+    background-color: hsl(25, 97%, 53%);
+    p{
+        font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    color: white;
+    padding-left: 80px;
+    padding-top: 10px;
+    }
+}
+.q{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.you{
+    background-color: hsl(217, 10%, 26%);
+    border-radius: 20px;
+    height: 20px;
+    width: 190px;
+    margin-left: 100px;
+    margin-top: 10px;
+    p{
+        color:hsl(25, 97%, 53%) ;
+    }
+}
+h4{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    color: white;
+    margin-left: 150px;
+    margin-top: 10px;
+}
